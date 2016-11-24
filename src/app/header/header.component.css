@@ -1,0 +1,92 @@
+@media(min-width:900px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+.navbar-nav>li:focus,
+.navbar-nav>li>a:focus {
+  outline: none;
+}
+.navbar-nav>li>a {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+.navbar-nav>li>a:hover,
+.navbar-nav>li:hover .dropdown-toggle{
+    color: #8c8c8c !important;
+}
+.navbar-default {
+    background-color: #000 !important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #ff0000 !important; /*Red for mobilis*/
+    background-color: #8c8c8c !important;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: #8c8c8c !important;
+    background-color: transparent;
+}
+.logo {
+    max-width: 150px;
+}
+#search,
+#search input,
+#search button{
+ background: #4c4c4c;
+ border-color: #4c4c4c;
+ outline: none !important;
+}
+#search input[type="search"] {  
+    color: #fff;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+} 
+/* Input PlaceHolder */
+#search input[type="search"]::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.42);
+    text-transform: uppercase;
+}
+#search input[type="search"]:-moz-placeholder {
+      color: rgba(255, 255, 255, 0.42);
+      text-transform: uppercase;
+}
+#search input[type="search"]::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.42);
+    text-transform: uppercase;
+}
+#search input[type="search"]:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.42);
+    text-transform: uppercase;
+}
+#search button .fa{
+  color: #fff;
+}
+li.search-box {
+    padding:10px;
+}
+@media(min-width:900px) {
+    li.search-box {
+        max-width: 250px !important;
+    }   
+}
+@media(min-width:900px) and (max-width:991px) {
+    li.search-box {
+        max-width: 200px !important;
+        margin-right: -40px;
+    }   
+}
+.navbar-toggle {
+    border-radius: 2px !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent !important;
+}
